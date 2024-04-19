@@ -29,6 +29,9 @@ header img {
 section {
     margin-bottom: 20px;
 } */
+main{
+    direction: rtl;
+}
 
 h2 {
     font-size: 20px;

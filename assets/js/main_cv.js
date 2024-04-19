@@ -34,20 +34,20 @@ addEducationItemButton.addEventListener('click', () => {
     const educationItem = document.createElement('div');
     educationItem.classList.add('education-item');
     educationItem.innerHTML = `
-        <h3>Education</h3>
-        <label for="institution">Institution:</label>
+        <h3>التعليم</h3>
+        <label for="institution">مؤسسة او جامعة</label>
         <input type="text" id="institution" name="institution" required>
 
-        <label for="degree">Degree:</label>
+        <label for="degree">الدرجة</label>
         <input type="text" id="degree" name="degree" required>
 
-        <label for="start-date">Start Date:</label>
+        <label for="start-date">تاريخ البداية</label>
         <input type="date" id="start-date" name="start-date" required>
 
-        <label for="end-date">End Date:</label>
+        <label for="end-date">تاريخ النهاية</label>
         <input type="date" id="end-date" name="end-date" required>
 
-        <button type="button" class="remove-item-button">Remove Item</button>
+        <button type="button" class="remove-item-button">حذف العنصر</button>
     `;
 
     // Add education item to container
@@ -67,23 +67,23 @@ addExperienceItemButton.addEventListener('click', () => {
         const experienceItem = document.createElement('div');
         experienceItem.classList.add('experience-item');
         experienceItem.innerHTML = `
-            <h3>Work Experience</h3>
-            <label for="company">Company:</label>
+            <h3>الخبرة</h3>
+            <label for="company">الشركة</label>
             <input type="text" id="company" name="company" required>
     
             <label for="position">Position:</label>
             <input type="text" id="position" name="position" required>
     
-            <label for="start-date">Start Date:</label>
+            <label for="start-date">تاريخ البداية</label>
             <input type="date" id="start-date" name="start-date" required>
     
-            <label for="end-date">End Date:</label>
+            <label for="end-date">تاريخ النهاية</label>
             <input type="date" id="end-date" name="end-date" required>
     
-            <label for="description">Description:</label>
+            <label for="description">وصف</label>
             <textarea id="description" name="description" required></textarea>
     
-            <button type="button" class="remove-item-button">Remove Item</button>
+            <button type="button" class="remove-item-button">حذف العنصر</button>
         `;
     
         // Add experience item to container
@@ -101,18 +101,18 @@ addSkillItemButton.addEventListener('click', () => {
         const skillItem = document.createElement('div');
         skillItem.classList.add('skill-item');
         skillItem.innerHTML = `
-            <h3>Skill</h3>
-            <label for="skill-name">Skill Name:</label>
+            <h3>المهارة</h3>
+            <label for="skill-name">أسم المهارة</label>
             <input type="text" id="skill-name" name="skill-name" required>
     
-            <label for="skill-level">Level:</label>
+            <label for="skill-level">المستوى</label>
             <select id="skill-level" name="skill-level" required>
-                <option value="beginner">Beginner</option>
-                <option value="intermediate">Intermediate</option>
-                <option value="advanced">Advanced</option>
+                <option value="beginner">مبتدئ</option>
+                <option value="intermediate">متوسط</option>
+                <option value="advanced">خبير</option>
             </select>
     
-            <button type="button" class="remove-item-button">Remove Item</button>
+            <button type="button" class="remove-item-button">حذف النعصر</button>
         `;
     
         // Add skill item to container
