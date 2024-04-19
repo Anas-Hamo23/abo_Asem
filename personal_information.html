@@ -82,8 +82,33 @@
                <div class="mainA">
                 <header>
                     <h1>Abo Asem</h1>
-                    <img src="assets/img/about.jpg" alt="Your Photo">
+                    <img src="assets/img/about.jpg" id="myImage" alt="Your Photo">
+                    
                 </header>
+                <div class="photo">
+                    <div>
+                        <h1>فلاتر الصورة</h1>
+                        <select id="filterSelect">
+                            <option value="none">بدون فلتر</option>
+                            <option value="grayscale(100%)">أبيض وأسود</option>
+                            <!-- <option value="sepia">أحادي اللون البني</option> -->
+                            <option value="blur(5px)">تشويش</option>
+                            <option value="brightness(1.5)">زيادة السطوع</option>
+                            <option value="contrast(2)">زيادة التباين</option>
+                        </select>
+                    </div>
+                    <div>
+                        <h1>نوع الخط</h1>
+                
+                <select id="fontSelect">
+                    <option value="Arial">Arial</option>
+                    <option value="Tahoma">Tahoma</option>
+                    <option value="Verdana">Verdana</option>
+                    <option value="Times New Roman">Times New Roman</option>
+                    <option value="Courier New">Courier New</option>
+                </select>
+                    </div>
+                </div>
                 <section class="sectionA" id="contact-info">
                     <h2>Contact Information</h2>
                     <ul>
@@ -204,6 +229,7 @@
 
     <!--=================== Animated text ===============-->
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="assets/js/main_personal.js"></script>
 
     <!--=================== Animate scroll js ===============-->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

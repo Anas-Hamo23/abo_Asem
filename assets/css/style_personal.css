@@ -5,8 +5,8 @@
     padding: 0;
 } */
 
-/* header {
-    background-color: #f0f0f0;
+header {
+    /* background-color: #f0f0f0; */
     padding: 20px;
     text-align: center;
 }
@@ -21,7 +21,7 @@ header img {
     width: 150px;
     height: 150px;
     margin-bottom: 20px;
-} */
+}
 
 .mainA {
     padding: 20px;
@@ -52,11 +52,11 @@ a {
     color: #333;
 }
 
-img {
+/* img {
     max-width: 100%;
     height: auto;
     margin-bottom: 20px;
-}
+} */
 
 .social-links {
     list-style: none;
@@ -73,3 +73,51 @@ img {
     float: right; /* Align icons to the right */
 }
 
+#myImage {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+select {
+    direction: rtl;
+    outline: none;
+    /* خصائص عامة */
+    width: 150px; /* عرض عنصر select */
+    height: 30px; /* ارتفاع عنصر select */
+    padding: 5px; /* مسافة داخلية حول النص */
+    margin: 10px 0px; /* مسافة خارجية حول عنصر select */
+    border: 1px solid #ccc; /* إطار حول عنصر select */
+    font-size: 16px; /* حجم الخط */
+    color: #333; /* لون النص */
+    background-color: #fff; /* لون الخلفية */
+  
+    /* خصائص المظهر */
+    appearance: none; /* إخفاء مظهر المتصفح الافتراضي */
+    cursor: pointer; /* تغيير المؤشر إلى يد عند التمرير فوقه */
+  
+    /* خصائص الخيارات */
+    option {
+      padding: 5px; /* مسافة داخلية حول كل خيار */
+    }
+  }
+  body {
+    font-family: Arial, sans-serif; /* خط افتراضي للصفحة */
+}
+
+h1 {
+    font-family: 'Times New Roman', serif; /* خط مخصص للعنوان */
+}
+
+p {
+    font-family: Verdana, sans-serif; /* خط مخصص للفقرة */
+}
+.photo{
+    display: flex;
+    margin-top: 20px;
+}
+/* .photo div{
+    margin-right: 20px;
+} */
+.photo div:nth-child(2){
+    margin-right: 20px;
+}
