@@ -1,7 +1,7 @@
 *{
     outline: none;
 }
-body {
+/* body {
     font-family: sans-serif;
     margin: 20px;
   }
@@ -13,7 +13,7 @@ body {
   section {
     margin-top: 20px;
   }
-  
+   */
   h2 {
     font-size: 24px; /* Adjust font size as needed */
     margin-bottom: 15px;

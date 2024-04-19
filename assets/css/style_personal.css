@@ -1,11 +1,11 @@
-body {
+/* body {
     font-family: sans-serif;
-    /* direction: rtl; */
+    direction: rtl;
     margin: 0;
     padding: 0;
-}
+} */
 
-header {
+/* header {
     background-color: #f0f0f0;
     padding: 20px;
     text-align: center;
@@ -21,7 +21,7 @@ header img {
     width: 150px;
     height: 150px;
     margin-bottom: 20px;
-}
+} */
 
 .mainA {
     padding: 20px;
