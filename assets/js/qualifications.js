@@ -12,7 +12,7 @@ addImageBtns.forEach((button, index) => {
 
         // Create and display the image element
         const image = document.createElement('img');
-        image.src = 'path/to/uploadedImage.jpg'; // Replace with actual image URL
+        image.src = 'assets/img/about.jpg'; // Replace with actual image URL
         imageGallery.appendChild(image);
     });
 });
@@ -25,7 +25,9 @@ addVideoBtns.forEach((button, index) => {
 
         // Create and display the video element
         const video = document.createElement('video');
-        video.src = 'path/to/uploadedVideo.mp4'; // Replace with actual video URL
+        // video.atrr(controls);
+        video.setAttribute('controls','')
+        video.src = 'assets/video/personal.mp4'; // Replace with actual video URL
         videoGallery.appendChild(video);
     });
 });
