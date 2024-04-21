@@ -1,3 +1,10 @@
+document.addEventListener('DOMContentLoaded', function() {
+    const loadingElement = document.getElementById('loding');
+    setTimeout(function() {
+      loadingElement.style.display = 'none';
+    }, 2500); // 2 ثانية من الانتظار قبل إخفاء loading
+  });
+  
 /*==================== MENU SHOW Y HIDDEN ====================*/
 const navMenu = document.getElementById('nav-menu'),
     navToggle = document.getElementById('nav-toggle'),

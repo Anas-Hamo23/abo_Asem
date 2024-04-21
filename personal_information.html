@@ -28,7 +28,9 @@
 </head>
 
 <body>
-    
+    <div id="loding">
+        <div class="loader"></div>
+    </div>
     <!--==================== HEADER ====================-->
     <header class="header" id="header">
         <nav class="nav container">
@@ -102,83 +104,26 @@
                     </div>
                     <div>
                         <h1>نوع الخط</h1>
-                
-                <select id="fontSelect">
-                    <option value="Arial">Arial</option>
-                    <option value="Tahoma">Tahoma</option>
-                    <option value="Verdana">Verdana</option>
-                    <option value="Times New Roman">Times New Roman</option>
-                    <option value="Courier New">Courier New</option>
-                </select>
+                        <select id="fontSelect">
+                            <option value="Arial">Arial</option>
+                            <option value="Tahoma">Tahoma</option>
+                            <option value="Verdana">Verdana</option>
+                            <option value="Times New Roman">Times New Roman</option>
+                            <option value="Courier New">Courier New</option>
+                        </select>
                     </div>
+                    <div>
+                        <h1>اختيار نموذج السيرة الذاتية</h1>
+                        <select id="cvSelect">
+                            <option value="1">نموذج 1</option>
+                            <option value="2">نموذج 2</option>
+                            <option value="3">نموذج 3</option>
+                        </select>
+                    </div>                    
                 </div>
-                <section class="sectionA" id="contact-info">
-                    <h2>معلومات الاتصال</h2>
-                    <ul>
-                        <li>البريد الالكتروني :<a href="#">youremail@example.com</a></li>
-                        <li>الهاتف : +1-234-567-8901</li>
-                        <li> الموقع الالكتروني : <a href="#">example.com</a></li>
-                    </ul>
-                </section>
-        
-                <section class="sectionA" id="summary">
-                    <h2>ملخص</h2>
-                    <p>A brief overview of your skills, experience, and career goals.</p>
-                </section>
-        
-                <section class="sectionA" id="experience">
-                    <h2>الخبرات</h2>
-                    <ul>
-                        <li>
-                            <h3>Software Engineer</h3>
-                            <h4>ABC Company</h4>
-                            <p>2021 - Present</p>
-                            <ul>
-                                <li>Developed and maintained web applications using JavaScript, React, and Node.js.</li>
-                                <li>Designed and implemented backend APIs using Java and Spring Boot.</li>
-                                <li>Collaborated with cross-functional teams to deliver high-quality software solutions.</li>
-                            </ul>
-                        </li>
-                        <li>
-                            <h3>Web Developer</h3>
-                            <h4>XYZ Company</h4>
-                            <p>2020</p>
-                            <ul>
-                                <li>Created and maintained responsive websites using HTML, CSS, and JavaScript.</li>
-                                <li>Implemented SEO best practices to improve website visibility.</li>
-                                <li>Worked with clients to gather requirements and deliver projects on time and within budget.</li>
-                            </ul>
-                        </li>
-                    </ul>
-                </section>
-        
-                <section class="sectionA" id="education">
-                    <h2>التعليم</h2>
-                    <ul>
-                        <li>
-                            <h3>Bachelor of Science in Computer Science</h3>
-                            <h4>Stanford University</h4>
-                            <p>2020</p>
-                        </li>
-                        <li>
-                            <h3>Associate's Degree in Web Development</h3>
-                            <h4>Austin Community College</h4>
-                            <p>2018</p>
-                        </li>
-                    </ul>
-                </section>
-        
-                <section class="sectionA" id="skills">
-                    <h2>المهارات</h2>
-                    <ul>
-                        <li>Programming Languages: JavaScript, Java, Python</li>
-                        <li>Web Technologies: HTML, CSS, React, Node.js</li>
-                        <li>Cloud Platforms: AWS, Azure</li>
-                        <li>Databases: MySQL, PostgreSQL</li>
-                        <li>Version Control Systems: Git, GitHub</li>
-                    </ul>
-                </section>
-               </div>
+                <div id="cvContainer"></div>
+
+            </div>
             </div>
         </section>
 

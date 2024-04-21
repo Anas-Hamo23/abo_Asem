@@ -121,3 +121,184 @@ p {
 .photo div:nth-child(2){
     margin-right: 20px;
 }
+.photo div:nth-child(3){
+    margin-right: 20px;
+}
+/* نموذج السيرة الذاتية 1 */
+.cv-model-1 {
+    font-size: 16px; /* حجم خط أكبر */
+    line-height: 1.5; /* مسافة بين الأسطر أصغر */
+    color: #333; /* لون نص غامق */
+    margin: 30px auto; /* مركز السيرة الذاتية أفقياً */
+    padding: 30px; /* مسافة داخل السيرة الذاتية */
+    width: 600px; /* عرض ثابت */
+    background-color: #fff; /* لون خلفية أبيض */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* ظل أكثر وضوحًا */
+    border-radius: 10px; /* زوايا دائرية أكثر */
+  }
+  
+  .cv-model-1 h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 24px; /* حجم خط أكبر للعنوان */
+    color: #007bff; /* لون عنوان أزرق */
+  }
+  
+  .cv-model-1 p {
+    margin-bottom: 15px;
+  }
+  
+  .cv-model-1 hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #eee;
+  }
+  
+  .cv-model-1 ul {
+    list-style: disc; /* استبدال النقاط بعلامات دائرية */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .cv-model-1 li {
+    margin-bottom: 5px;
+  }
+  
+/* نموذج السيرة الذاتية 2 */
+.cv-model-2 {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #666; /* لون نص أفتح */
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #ccc; /* إطار أكثر وضوحًا */
+  }
+  
+  .cv-model-2 h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold; /* خط غامق للعنوان */
+    text-align: center; /* محاذاة العنوان في المنتصف */
+  }
+  
+  .cv-model-2 p {
+    margin-bottom: 10px;
+  }
+  
+  .cv-model-2 hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px dashed #999;
+  }
+  
+  .cv-model-2 h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .cv-model-2 h4 {
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: #999;
+  }
+  
+/* نموذج السيرة الذاتية 3 */
+.cv-model-3 {
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: none;
+    box-shadow: none;
+  }
+  
+  .cv-model-3 h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+  }
+  
+  .cv-model-3 p {
+    margin-bottom: 15px;
+    color: #666;
+  }
+  
+  .cv-model-3 hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px dashed #ccc;
+  }
+  
+  .cv-model-3 section {
+    margin-bottom: 30px;
+  }
+  
+  .cv-model-3 h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #007bff;
+  }
+  
+  .cv-model-3 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .cv-model-3 li {
+    margin-bottom: 5px;
+    position: relative;
+    padding-left: 20px;
+  }
+  
+  .cv-model-3 li::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 8px;
+    height: 8px;
+    background-color: #007bff;
+    border-radius: 50%;
+  }
+  
+  .cv-model-3 a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .cv-model-3 a:hover {
+    text-decoration: underline;
+  }
+  
+  .cv-model-3 .social-media {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cv-model-3 .social-media li {
+    margin-right: 10px;
+  }
+  
+  .cv-model-3 .social-media i {
+    font-size: 20px;
+    color: #999;
+  }
+  
+  .cv-model-3 .social-media i:hover {
+    color: #007bff;
+  }
+  
