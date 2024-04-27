@@ -16,6 +16,22 @@ if (navToggle) {
         navMenu.classList.add('show-menu')
     })
 }
+const changeFontBtn = document.getElementById('change-font-btn');
+
+changeFontBtn.addEventListener('click', function() {
+  const body = document.body;
+  const currentFontClass = body.classList.value;
+
+  if (currentFontClass === 'default-font') {
+    body.classList.remove('default-font');
+    body.classList.add('abo-font');
+    changeFontBtn.textContent = 'استعادة الخط الافتراضي';
+  } else {
+    body.classList.remove('abo-font');
+    body.classList.add('default-font');
+    changeFontBtn.textContent = 'جرب الخط الخاص بي';
+  }
+});
 
 /*===== MENU HIDDEN =====*/
 /* Validate if constant exists */

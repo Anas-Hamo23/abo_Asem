@@ -69,7 +69,16 @@
     --smaller-font-size: .813rem;
   }
 }
+/* ========= Font change ================= */
 
+
+.default-font {
+  font-family:'Times New Roman', Times, serif;
+}
+
+.abo-font {
+  font-family: 'Poppins', sans-serif; /* الخط الافتراضي */
+}
 /*========== Variables Dark theme ==========*/
 body.dark-theme {
   /* HSL color mode */
