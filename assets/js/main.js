@@ -25,11 +25,11 @@ changeFontBtn.addEventListener('click', function() {
   if (currentFontClass === 'default-font') {
     body.classList.remove('default-font');
     body.classList.add('abo-font');
-    changeFontBtn.textContent = 'استعادة الخط الافتراضي';
+    changeFontBtn.textContent = 'جرب الخط الخاص بي';
   } else {
     body.classList.remove('abo-font');
     body.classList.add('default-font');
-    changeFontBtn.textContent = 'جرب الخط الخاص بي';
+    changeFontBtn.textContent = 'استعادة الخط الافتراضي';
   }
 });
 

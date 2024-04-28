@@ -1,33 +1,19 @@
-// Get references to elements
-const addImageBtns = document.querySelectorAll('.add-image-btn');
-const addVideoBtns = document.querySelectorAll('.add-video-btn');
-const imageGalleries = document.querySelectorAll('.image-gallery');
-const videoGalleries = document.querySelectorAll('.video-gallery');
+const skillsContent = document.getElementsByClassName('skills__content'),
+    skillsHeader = document.querySelectorAll('.skills__header')
+    console.log(skillsHeader)
 
-// Add event listeners for image upload buttons
-addImageBtns.forEach((button, index) => {
-    button.addEventListener('click', () => {
-        // Handle image upload logic here
-        const imageGallery = imageGalleries[index];
+function toggleSkills() {
+    console.log(skillsHeader)
+    let itemClass = this.parentNode.className
 
-        // Create and display the image element
-        const image = document.createElement('img');
-        image.src = 'assets/img/about.jpg'; // Replace with actual image URL
-        imageGallery.appendChild(image);
-    });
-});
+    for (i = 0; i < skillsContent.length; i++) {
+        skillsContent[i].className = 'skills__content skills__close'
+    }
+    if (itemClass === 'skills__content skills__close') {
+        this.parentNode.className = 'skills__content skills__open'
+    }
+}
 
-// Add event listeners for video upload buttons
-addVideoBtns.forEach((button, index) => {
-    button.addEventListener('click', () => {
-        // Handle video upload logic here
-        const videoGallery = videoGalleries[index];
-
-        // Create and display the video element
-        const video = document.createElement('video');
-        // video.atrr(controls);
-        video.setAttribute('controls','')
-        video.src = 'assets/video/personal.mp4'; // Replace with actual video URL
-        videoGallery.appendChild(video);
-    });
-});
+skillsHeader.forEach((el) => {
+    el.addEventListener('click', toggleSkills)
+})

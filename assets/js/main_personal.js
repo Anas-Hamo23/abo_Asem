@@ -7,15 +7,30 @@ filterSelect.addEventListener('change', function() {
     image.style.filter = selectedFilter;
     // console.log(image)
 });
-const fontSelect = document.getElementById('fontSelect');
-const body = document.querySelector('main');
+// const fontSelect = document.getElementById('fontSelect');
+// const body = document.querySelector('main');
 
-fontSelect.addEventListener('change', function() {
-    const selectedFont = this.value;
-    body.style.fontFamily = selectedFont;
-});
+// fontSelect.addEventListener('change', function() {
+//     const selectedFont = this.value;
+//     body.style.fontFamily = selectedFont;
+// });
 
+// const changeFontBtn = document.getElementById('change-font-btn');
 
+// changeFontBtn.addEventListener('click', function() {
+//   const body = document.body;
+//   const currentFontClass = body.classList.value;
+
+//   if (currentFontClass === 'default-font') {
+//     body.classList.remove('default-font');
+//     body.classList.add('abo-font');
+//     changeFontBtn.textContent = 'استعادة الخط الافتراضي';
+//   } else {
+//     body.classList.remove('abo-font');
+//     body.classList.add('default-font');
+//     changeFontBtn.textContent = 'جرب الخط الخاص بي';
+//   }
+// });
 const cvSelect = document.getElementById('cvSelect');
 const cvContainer = document.getElementById('cvContainer');
 

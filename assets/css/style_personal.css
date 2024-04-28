@@ -4,7 +4,20 @@
     margin: 0;
     padding: 0;
 } */
+@font-face {
+  font-family: 'myFont';
+  src: url('../font/myFont3.ttf') format('woff2'),
+       url('../font/myFont1.ttf') format('woff');
+}
 
+.default-font {
+  font-family: 'Poppins', sans-serif; /* الخط الافتراضي */
+
+}
+
+.abo-font {
+  font-family:'myFont', Times, serif;
+}
 header {
     /* background-color: #f0f0f0; */
     padding: 20px;
@@ -16,12 +29,12 @@ header h1 {
     margin-bottom: 10px;
 }
 
-header img {
+/* header img {
     border-radius: 50%;
     width: 150px;
     height: 150px;
     margin-bottom: 20px;
-}
+} */
 
 .mainA {
     padding: 20px;
@@ -52,11 +65,9 @@ a {
     color: #333;
 }
 
-/* img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 20px;
-} */
+#myImage {
+    border-radius: 50%;
+}
 
 .social-links {
     list-style: none;
