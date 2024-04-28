@@ -85,58 +85,24 @@
         <!--==================== HOME ====================-->
         <section class="home section" id="home">
             <div data-aos="fade-left" class="home__container container grid">
-                <section class="personal-info">
-                    <h2>المعلومات الشخصية</h2>
-                    <form id="personal-info-form">
-                        <label for="name">الأسم الكامل</label>
-                        <input type="text" id="name" name="name" required>
-            
-                        <label for="email">البريد الالكتروني</label>
-                        <input type="email" id="email" name="email" required>
-            
-                        <label for="phone">رقم الهاتف</label>
-                        <input type="tel" id="phone" name="phone" required>
-            
-                        <label for="address">العنوان</label>
-                        <input type="text" id="address" name="address" required>
-            
-                        <button type="submit">ارسال</button>
-                    </form>
-                </section>
                 <div class="personal-info-item">
-                    <!-- <h3>${name}</h3>
-                    <p>Email: ${email}</p>
-                    <p>Phone: ${phone}</p>
-                    <p>Address: ${address}</p> -->
-                
                     <div class="profile-picture">
                         <img id="profile-image" src="placeholder.jpg" alt="">
                         <label for="profile-picture-input">تحميل صورة</label>
                         <input type="file" id="profile-picture-input" accept="image/*">
                     </div>
                 </div>
-                
-                
-                <section class="education">
-                    <h2>التعليم</h2>
-                    <div id="education-items">
-                        </div>
-                    <button id="add-education-item">إضافة تعليم</button>
-                </section>
-            
-                <section class="experience">
-                    <h2>الخبرات</h2>
-                    <div id="experience-items">
-                        </div>
-                    <button id="add-experience-item"> إضافة خبرة</button>
-                </section>
-            
-                <section class="skills">
-                    <h2>المهارات</h2>
-                    <div id="skills-items">
-                        </div>
-                    <button id="add-skill-item">إضافة مهارة</button>
-                </section>
+                <div>
+                        <h1>اختيار نموذج السيرة الذاتية</h1>
+                        <select id="cvSelect">
+                            <option value="1">نموذج 1</option>
+                            <option value="2">نموذج 2</option>
+                            <option value="3">نموذج 3</option>
+                        </select>
+                    </div>                    
+                </div>
+                <div id="cvContainer"></div>
+
             </div>
 
     </main>
